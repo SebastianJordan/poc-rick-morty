@@ -1,13 +1,13 @@
-
-name: Lint  
-on: [push]
+name: Lint
+on:
+push:
 branches:
   - main
- 
+
 env:
   NODE_VERSION: 16
- 
-jobs: 
+
+jobs:
   linting:
     runs-on: ubuntu-latest
     steps:
