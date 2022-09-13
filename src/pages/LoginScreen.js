@@ -1,8 +1,9 @@
-import { Text, View, StyleSheet } from "react-native";
+import React from 'react';
+import {Text} from 'react-native';
 export function LoginScreen() {
   return (
-    <View>
-      <Text> Hola login</Text>
-    </View>
+    <>
+      <Text> Hi login</Text>
+    </>
   );
 }
